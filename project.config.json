@@ -1,0 +1,10 @@
+{
+  "description": "婚礼请帖 · React/Taro",
+  "miniprogramRoot": "dist/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "projectname": "our-wedding-invitation",
+  "appid": "touristappid",
+  "compileType": "miniprogram",
+  "libVersion": "3.7.12",
+  "setting": { "es6": true, "minified": true, "urlCheck": true, "postcss": true }
+}

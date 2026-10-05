@@ -1,0 +1,10 @@
+.invitation-icon { position: relative; display: inline-flex; flex-shrink: 0; align-items: center; justify-content: center; width: 38px; height: 38px; color: inherit; }
+.icon-heart-glyph { font: 40px/1 Georgia, serif; }
+.icon-poster .icon-stroke { width: 25px; height: 32px; border: 2px solid currentColor; border-radius: 2px; }
+.icon-paper-lines { position: absolute; top: 13px; left: 12px; width: 14px; height: 11px; border-top: 2px solid currentColor; border-bottom: 2px solid currentColor; }
+.icon-arrow .icon-stroke { width: 24px; height: 2px; background: currentColor; transform: rotate(-45deg); }
+.icon-arrow::after { content: ''; position: absolute; width: 13px; height: 13px; top: 8px; right: 8px; border-top: 2px solid currentColor; border-right: 2px solid currentColor; }
+.icon-location .icon-stroke { width: 23px; height: 23px; border: 2px solid currentColor; border-radius: 50% 50% 50% 0; transform: translateY(-4px) rotate(-45deg); }
+.icon-location::after { content: ''; position: absolute; width: 7px; height: 7px; border: 2px solid currentColor; border-radius: 50%; top: 11px; left: 14px; }
+.icon-close::before, .icon-close::after { content: ''; position: absolute; width: 25px; height: 2px; background: currentColor; transform: rotate(45deg); }
+.icon-close::after { transform: rotate(-45deg); }

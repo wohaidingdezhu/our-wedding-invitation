@@ -1,0 +1,11 @@
+node_modules/
+dist/
+dist-h5/
+.taro/
+.swc/
+.DS_Store
+project.private.config.json
+*.log
+artifacts/*preview*.jpg
+artifacts/*preview*.png
+artifacts/archive-v1/
